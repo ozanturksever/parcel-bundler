@@ -14,7 +14,6 @@ class SourceMap {
       if (m.source.indexOf("node_modules")!==-1) {
         return false
       }
-      console.log(m.source)
       return true
     })
   }
